@@ -6,7 +6,7 @@ namespace SendInfo.hubs
     {
         public void SendAll(string Info)
         {
-            Clients.All.addinfo(Info);
+            Clients.Others.addinfo(Info);
         }
     }
 }

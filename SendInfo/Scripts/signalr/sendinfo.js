@@ -4,7 +4,7 @@ function addInfo(info) {
     if (info.indexOf('http://') === 0 || info.indexOf('https://') === 0) {
         window.open(info);
     }
-    $('#Infos').html('<span>' + info + '</span><br />');
+    $('#Infos').text(info);
 }
 
 $(function () {
